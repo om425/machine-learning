@@ -1,10 +1,10 @@
-import os
+
 import telebot
 import openai
 
-openai.key=os.environ.get("OPENAI_API_KEY")
+openai.key=("OPENAI_API_KEY")
 
-bot_token = os.environ.get("BOT_TOKEN")
+bot_token = ("BOT_TOKEN")
 
 bot = telebot.TeleBot(bot_token)
 
